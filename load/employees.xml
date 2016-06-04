@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employeeToXML>
+    <employees>
+        <employee>
+            <depCode>12</depCode>
+            <depJob>123</depJob>
+            <description>1212</description>
+        </employee>
+    </employees>
+</employeeToXML>
