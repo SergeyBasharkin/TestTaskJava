@@ -1,6 +1,4 @@
-package db;
-
-import javax.xml.bind.annotation.XmlTransient;
+package model;
 
 /**
  * Created by Admin on 04.06.2016.
@@ -20,6 +18,33 @@ public class EmployeeInfo {
         this.description = description;
     }
 
+    @Override
+    public String toString() {
+        return "EmployeeInfo{" +
+                "depCode='" + depCode + '\'' +
+                ", depJob='" + depJob + '\'' +
+                ", description='" + description + '\'' +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        EmployeeInfo that = (EmployeeInfo) o;
+
+        if (!getDepCode().equals(that.getDepCode())) return false;
+        return getDepJob().equals(that.getDepJob());
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = getDepCode().hashCode();
+        result = 31 * result + getDepJob().hashCode();
+        return result;
+    }
 
     public String getDepCode() {
         return depCode;

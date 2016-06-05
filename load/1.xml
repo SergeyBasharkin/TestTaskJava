@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employeeToXML>
+    <employees>
+        <employese>
+            <depCode>53</depCode>
+            <depJob>54</depJob>
+            <description>1232321</description>
+        </employese>
+        <employse>
+            <depCode>13</depCode>
+            <depJob>134</depJob>
+            <description>123231</description>
+        </employse>
+        <employese>
+            <depCode>43</depCode>
+            <depJob>554</depJob>
+            <description>123321</description>
+        </employese>
+    </employees>
+</employeeToXML>

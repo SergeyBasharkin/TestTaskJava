@@ -1,7 +1,7 @@
-package db;
+package model;
 
 import javax.xml.bind.annotation.*;
-import java.util.List;
+import java.util.HashSet;
 
 /**
  * Created by Admin on 04.06.2016.
@@ -9,15 +9,15 @@ import java.util.List;
 @XmlRootElement
 public class EmployeeToXML {
 
-    List<EmployeeInfo> employees;
+    HashSet<EmployeeInfo> employees;
 
-    public List<EmployeeInfo> getEmployees() {
+    public HashSet<EmployeeInfo> getEmployees() {
         return employees;
     }
 
     @XmlElement(name = "employee")
     @XmlElementWrapper
-    public void setEmployees(List<EmployeeInfo> employees) {
+    public void setEmployees(HashSet<EmployeeInfo> employees) {
         this.employees = employees;
     }
 }

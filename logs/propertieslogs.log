@@ -1,0 +1,79 @@
+[INFO ] 2016-06-05 22:09:55.052 [main] Console - start upload file
+[INFO ] 2016-06-05 22:11:42.955 [main] Console - start upload file
+[INFO ] 2016-06-05 22:12:22.299 [main] Console - start download
+[INFO ] 2016-06-05 22:12:22.361 [main] Console - SELECT depcode,depjob,discription FROM task
+[INFO ] 2016-06-05 22:12:22.397 [main] Console - success download
+[INFO ] 2016-06-05 22:12:46.627 [main] Console - start download
+[INFO ] 2016-06-05 22:12:46.687 [main] Console - SELECT depcode,depjob,discription FROM task
+[INFO ] 2016-06-05 22:12:46.722 [main] Console - success download
+[INFO ] 2016-06-05 22:24:42.571 [main] Console - start upload file
+[INFO ] 2016-06-05 22:24:50.163 [main] Console - start upload file
+[INFO ] 2016-06-05 22:24:50.198 [main] Console - start getting info from xml
+[INFO ] 2016-06-05 22:24:50.204 [main] Console - success read xml
+[INFO ] 2016-06-05 22:24:50.247 [main] Console - success connection
+[INFO ] 2016-06-05 22:24:50.263 [main] Console - success commit
+[INFO ] 2016-06-05 22:25:53.378 [main] Console - start upload file
+[INFO ] 2016-06-05 22:25:53.414 [main] Console - start getting info from xml
+[INFO ] 2016-06-05 22:25:53.420 [main] Console - success read xml
+[INFO ] 2016-06-05 22:25:53.461 [main] Console - success connection
+[INFO ] 2016-06-05 22:25:53.476 [main] Console - success commit
+[INFO ] 2016-06-05 22:26:04.035 [main] Console - start upload file
+[INFO ] 2016-06-05 22:26:04.076 [main] Console - start getting info from xml
+[INFO ] 2016-06-05 22:26:04.082 [main] Console - success read xml
+[INFO ] 2016-06-05 22:26:04.124 [main] Console - success connection
+[INFO ] 2016-06-05 22:26:04.140 [main] Console - success commit
+[INFO ] 2016-06-05 22:26:41.171 [main] Console - start upload file
+[INFO ] 2016-06-05 22:26:41.207 [main] Console - start getting info from xml
+[INFO ] 2016-06-05 22:26:41.214 [main] Console - read EmployeeInfo{depCode='12', depJob='123', description='1212'}
+[INFO ] 2016-06-05 22:26:41.216 [main] Console - read EmployeeInfo{depCode='13', depJob='134', description='123231'}
+[INFO ] 2016-06-05 22:26:41.217 [main] Console - read EmployeeInfo{depCode='43', depJob='554', description='3321'}
+[INFO ] 2016-06-05 22:26:41.219 [main] Console - success read xml
+[INFO ] 2016-06-05 22:26:41.260 [main] Console - success connection
+[INFO ] 2016-06-05 22:26:41.275 [main] Console - start add
+[INFO ] 2016-06-05 22:26:41.278 [main] Console - success add
+[INFO ] 2016-06-05 22:26:41.284 [main] Console - success commit
+[INFO ] 2016-06-05 22:27:53.978 [main] Console - start upload file
+[INFO ] 2016-06-05 22:27:54.014 [main] Console - start getting info from xml
+[INFO ] 2016-06-05 22:27:54.021 [main] Console - read EmployeeInfo{depCode='12', depJob='123', description='1212'}
+[INFO ] 2016-06-05 22:27:54.023 [main] Console - read EmployeeInfo{depCode='13', depJob='134', description='123231'}
+[INFO ] 2016-06-05 22:27:54.025 [main] Console - read EmployeeInfo{depCode='43', depJob='554', description='3321'}
+[ERROR] 2016-06-05 22:27:54.027 [main] Console - xml file contains double equal employees
+[ERROR] 2016-06-05 22:27:54.028 [main] Console - xml file contains double equal employees
+[INFO ] 2016-06-05 22:27:54.030 [main] Console - success read xml
+[INFO ] 2016-06-05 22:27:54.073 [main] Console - success connection
+[INFO ] 2016-06-05 22:27:54.088 [main] Console - start remove
+[INFO ] 2016-06-05 22:27:54.091 [main] Console - success remove
+[INFO ] 2016-06-05 22:27:54.094 [main] Console - success commit
+[INFO ] 2016-06-05 22:27:54.095 [main] Console - start upload file
+[INFO ] 2016-06-05 22:27:54.100 [main] Console - start getting info from xml
+[INFO ] 2016-06-05 22:27:54.102 [main] Console - read EmployeeInfo{depCode='12', depJob='123', description='1212'}
+[INFO ] 2016-06-05 22:27:54.104 [main] Console - read EmployeeInfo{depCode='13', depJob='134', description='123231'}
+[INFO ] 2016-06-05 22:27:54.106 [main] Console - read EmployeeInfo{depCode='43', depJob='554', description='3321'}
+[ERROR] 2016-06-05 22:27:54.108 [main] Console - xml file contains double equal employees
+[ERROR] 2016-06-05 22:27:54.110 [main] Console - xml file contains double equal employees
+[INFO ] 2016-06-05 22:27:54.112 [main] Console - success read xml
+[INFO ] 2016-06-05 22:27:54.127 [main] Console - success connection
+[INFO ] 2016-06-05 22:27:54.129 [main] Console - success commit
+[INFO ] 2016-06-05 22:30:11.663 [main] Console - start upload file
+[INFO ] 2016-06-05 22:30:11.710 [main] Console - start getting info from xml
+[INFO ] 2016-06-05 22:30:11.718 [main] Console - read EmployeeInfo{depCode='12', depJob='123', description='1212'}
+[INFO ] 2016-06-05 22:30:11.718 [main] Console - read EmployeeInfo{depCode='13', depJob='134', description='123231'}
+[INFO ] 2016-06-05 22:30:11.718 [main] Console - read EmployeeInfo{depCode='43', depJob='554', description='3321'}
+[ERROR] 2016-06-05 22:30:11.718 [main] Console - xml file contains double equal employees
+[ERROR] 2016-06-05 22:30:23.123 [main] Console - xml file contains double equal employees
+[INFO ] 2016-06-05 22:30:46.313 [main] Console - success read xml
+[INFO ] 2016-06-05 22:30:59.462 [main] Console - start upload file
+[INFO ] 2016-06-05 22:30:59.510 [main] Console - start getting info from xml
+[INFO ] 2016-06-05 22:30:59.518 [main] Console - read EmployeeInfo{depCode='12', depJob='123', description='1212'}
+[INFO ] 2016-06-05 22:30:59.519 [main] Console - read EmployeeInfo{depCode='13', depJob='134', description='123231'}
+[INFO ] 2016-06-05 22:30:59.519 [main] Console - read EmployeeInfo{depCode='43', depJob='554', description='3321'}
+[ERROR] 2016-06-05 22:30:59.519 [main] Console - xml file contains double equal employees
+[ERROR] 2016-06-05 22:31:03.320 [main] Console - xml file contains double equal employees
+[INFO ] 2016-06-05 22:31:09.753 [main] Console - success read xml
+[INFO ] 2016-06-05 22:31:37.317 [main] Console - start upload file
+[INFO ] 2016-06-05 22:31:37.366 [main] Console - start getting info from xml
+[INFO ] 2016-06-05 22:31:37.374 [main] Console - read EmployeeInfo{depCode='12', depJob='123', description='1212'}
+[INFO ] 2016-06-05 22:31:37.374 [main] Console - read EmployeeInfo{depCode='13', depJob='134', description='123231'}
+[INFO ] 2016-06-05 22:31:37.374 [main] Console - read EmployeeInfo{depCode='43', depJob='554', description='3321'}
+[ERROR] 2016-06-05 22:31:37.374 [main] Console - xml file contains double equal employees
+[ERROR] 2016-06-05 22:31:42.094 [main] Console - xml file contains double equal employees
